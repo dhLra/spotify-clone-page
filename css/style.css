@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+}
+
+body{
+    background-color:rgb(65, 64, 64);
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 235px;
+    height: 100%;
+    background: black;
+    padding: 25px 0;
+    
+}
+
+.wrapper .sidebar img{
+    width: 60%;
+    padding-left: 15px;
+    margin-left: 7px;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+    padding: 8px 15px;
+    text-align: justify;
+}
+
+.wrapper .sidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+}
+
+.wrapper .sidebar ul li a i {
+    size:5px;
+}
+
+.wrapper .sidebar ul li:hover a{
+    color: whitesmoke;
+}
+
+.wrapper .main_content{
+    width: 100%;
+    margin-left: 235px;
+}
+
+.wrapper .main_content .header{
+    display: flex;
+    padding: 20px;
+    background:rgb(65, 64, 64);
+    color: #717171;
+
+}
+
+.wrapper .main_content .header .nav-buttons ul li {
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 50%;    
+}
+.wrapper .main_content .header .nav-buttons ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.wrapper .main_content .header .user{
+    position: fixed;
+    right: 10%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 4px 30px;
+    
+}
+.wrapper .main_content .header .info{
+    margin: 40px;
+    background:rgb(65, 64, 64);
+}
+
+.wrapper .footer{
+    position: fixed;
+    top:86%;
+    padding: auto;
+    background:rgb(32, 32, 32);
+    border-top: 1px solid gray;
+}
+
+.wrapper .footer .corrent{
+    margin: 0;
+    padding: 36px 85px;
+    display:inline-block;
+    color: white;
+}
+
+.wrapper .footer .player{
+    margin: 0;
+    padding: 36px 461px;
+    display:inline-block;
+    color: white;
+}
+
+.wrapper .footer .control{
+    display:inline-block;
+    padding: 36px 55px;
+    color: white;
+}
