@@ -43,8 +43,9 @@ body{
     display: block;
 }
 
-.wrapper .sidebar ul li a i {
-    size:5px;
+.wrapper .sidebar ul li i {
+    size:7px;
+    margin-right: 6px;
 }
 
 .wrapper .sidebar ul li:hover a{
@@ -87,8 +88,61 @@ body{
     
 }
 .wrapper .main_content .header .info{
-    margin: 40px;
     background:rgb(65, 64, 64);
+}
+
+.wrapper .main_content .info .albuns{
+    display: flex;
+    flex-direction: row;
+}
+.wrapper .main_content .info .albuns .album-column-1{
+    width: 40%;
+    height: 20%;
+}
+
+.wrapper .main_content .info .albuns .album-column-1 .album{
+    border:1px white solid;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 20%;
+}
+
+.wrapper .main_content .info .albuns .album-column-2{
+    width: 40%;
+    height: 20%;
+}
+
+.wrapper .main_content .info .albuns .album-column-2 .album{
+    border:1px white solid;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 20%;
+}
+
+.min-music{
+    width: 15%;
+}
+
+
+.wrapper .carousel-musicas{
+    display:flex;
+}
+
+.wrapper .titulo{
+    font-size: 30px;
+    margin: 5px 6px;
+    display: block;
+    color:white;
+}
+
+.box-musicas{
+    margin: 0px 2px;
+    padding: 0px 6px;
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
 .wrapper .footer{

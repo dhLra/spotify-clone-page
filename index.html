@@ -1,54 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>Spotify</title>
-    <meta charset="utf-8">
-    
-    <link href="css/style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/afc7c9c072.js" crossorigin="anonymous"></script>
-  
+
+<head>
+  <title>Spotify</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+  <link href="css/style.css" rel="stylesheet">
+
 </head>
-  <body>
-      <div class="wrapper">
-          <div class="sidebar">
-                <img src="img/spotify-logo.png">
-                <ul>
-                    <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
-                    <li><a href="#"><i class="fas fa-search"></i>Search</a></li>
-                    <li><a href="#"><i class="fas fa-book"></i>You Library</a></li>
-                    <br>
-                    <li><a href="#"><i class="far fa-plus-square"></i>Create Playlist</a></li>
-                    <li><a href="#"><i class="fas fa-heart"></i>Liked Songs</a></li>
-                    <li><a href="#"><i class="fas fa-podcast"></i>Your Episodes</a></li>
-                </ul>
-                <hr>
-          </div>
-          <div class="main_content">
-            <div class="header">
-                <div class="nav-buttons">
-                    <ul>
-                        <li><a href="#" type="button"><</a></li>
-                        <li><a href="#" type="button">></a></li>
-                    </ul>
-                </div>
-                <div class="user">
-                    <a>Dhiego Lira</a>
-                </div>
-            </div>
-            <div class="info">
-            </div>
-          </div>
-              <div class="footer">
-                  <div class="corrent">
-                        Musica
-                  </div>
-                  <div class="player">
-                    player
-                  </div>
-                  <div class="control">
-                    control
-                  </div>
-              </div>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <img src="img/spotify-logo.png">
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>Search</a></li>
+        <li><a href="#"><i class="fas fa-book"></i>You Library</a></li>
+        <br>
+        <li><a href="#"><i class="far fa-plus-square"></i>Create Playlist</a></li>
+        <li><a href="#"><i class="fas fa-heart"></i>Liked Songs</a></li>
+        <li><a href="#"><i class="fas fa-podcast"></i>Your Episodes</a></li>
+      </ul>
+      <hr>
+    </div>
+    <div class="main_content">
+      <div class="header">
+        <div class="nav-buttons">
+          <ul>
+            <li><a href="#" type="button"><</a></li>
+            <li><a href="#" type="button">></a></li>
+          </ul>
+        </div>
+        <div class="user">
+          <a>Dhiego Lira <i class="fas fa-sort-down"></i></a>
+        </div>
       </div>
-  </body>
+      <div class="info">
+        <h2 class="titulo">Meus Albuns</h2>
+        <div class="albuns">
+          <div class="album-column-1">
+            <div class="album">
+              <img src="img/highligth (0).jpg" class="min-music">
+            </div>
+            <div class="album">
+              <img src="img/highligth (1).jpg" class="min-music">
+            </div>
+          </div>
+          <div class="album-column-2">
+            <div class="album">
+              <img src="img/highligth (2).jpg" class="min-music">
+            </div>
+            <div class="album">
+              <img src="img/highligth (3).jpg" class="min-music">
+            </div>
+          </div>
+        </div>
+        <h2 class="titulo">Continue ouvindo</h2>
+        <div class="carousel-musicas">
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-musicas" src="img/min (0).jpg"></div>
+            <div class="item"><img class="box-musicas" src="img/min (1).jpg"></div>
+            <div class="item"><img class="box-musicas" src="img/min (2).jpg"></div>
+            <div class="item"><img class="box-musicas" src="img/min (3).jpg"></div>
+            <div class="item"><img class="box-musicas" src="img/min (4).jpg"></div>
+            <div class="item"><img class="box-musicas" src="img/min (5).jpg"></div>
+            <div class="item"><img class="box-musicas" src="img/min (6).jpg"></div>
+            <div class="item"><img class="box-musicas" src="img/min (7).jpg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="corrent">
+        Musica
+      </div>
+      <div class="player">
+        player
+      </div>
+      <div class="control">
+        control
+      </div>
+    </div>
+  </div>
+
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/main.js"></script>
+  <script src="https://kit.fontawesome.com/afc7c9c072.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
