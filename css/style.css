@@ -53,16 +53,16 @@ body{
 }
 
 .wrapper .main_content{
-    width: 100%;
-    margin-left: 235px;
+    width: 82%;
+    margin-left: 235px;  
 }
 
 .wrapper .main_content .header{
     display: flex;
-    padding: 20px;
+    padding: 20px 0px;
     background:rgb(65, 64, 64);
     color: #717171;
-
+    justify-content: space-between;
 }
 
 .wrapper .main_content .header .nav-buttons ul li {
@@ -79,8 +79,7 @@ body{
     color: white;
 }
 .wrapper .main_content .header .user{
-    position: fixed;
-    right: 10%;
+    display:flex;
     color: white;
     border: 1px solid white;
     border-radius: 40px;
@@ -89,45 +88,39 @@ body{
 }
 .wrapper .main_content .header .info{
     background:rgb(65, 64, 64);
+    max-width: 10px;
 }
 
 .wrapper .main_content .info .albuns{
     display: flex;
     flex-direction: row;
 }
-.wrapper .main_content .info .albuns .album-column-1{
-    width: 40%;
+.wrapper .main_content .info .albuns .column{
+    width: 50%;
     height: 20%;
 }
 
-.wrapper .main_content .info .albuns .album-column-1 .album{
-    border:1px white solid;
-    margin-left: 40px;
+.wrapper .main_content .info .albuns .column .album{
+    display: flex;
+    background: #272727;
+    margin-left: 15px;
     margin-bottom: 10px;
-    width: 80%;
-    height: 20%;
-}
-
-.wrapper .main_content .info .albuns .album-column-2{
-    width: 40%;
-    height: 20%;
-}
-
-.wrapper .main_content .info .albuns .album-column-2 .album{
-    border:1px white solid;
-    margin-left: 40px;
-    margin-bottom: 10px;
-    width: 80%;
-    height: 20%;
+    border-radius: 10px;
 }
 
 .min-music{
-    width: 15%;
+    width: 20%;
+    border-radius: 9px;
 }
-
-
+.wrapper .main_content .info .albuns .column .album h4{
+    padding: 8% 5%;
+    color: white;
+    display: flex;
+}
 .wrapper .carousel-musicas{
     display:flex;
+    background: #272727;
+    padding: 15px;
 }
 
 .wrapper .titulo{
@@ -146,29 +139,29 @@ body{
 }
 
 .wrapper .footer{
+    display: flex;
     position: fixed;
+    width: 100%;
     top:86%;
     padding: auto;
     background:rgb(32, 32, 32);
     border-top: 1px solid gray;
+    z-index: 1;
+    justify-content: space-between;
+    color: white;
 }
 
 .wrapper .footer .corrent{
-    margin: 0;
-    padding: 36px 85px;
-    display:inline-block;
-    color: white;
+    padding: 38px 0px;
+    margin-left: 2% ;
 }
 
 .wrapper .footer .player{
-    margin: 0;
-    padding: 36px 461px;
-    display:inline-block;
-    color: white;
+    padding: 38px 0px;
 }
 
 .wrapper .footer .control{
-    display:inline-block;
-    padding: 36px 55px;
-    color: white;
+    padding: 38px 0px;
+    margin-right: 2% ;
+
 }
